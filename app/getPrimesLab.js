@@ -8,9 +8,9 @@ module.exports = {
 				primes.push(i);
             	for (x = i << 1; x <= max; x += i) {
                 	value[x] = true;
-            	}
-      		}
-    	}
+            }
+      	}
+    }
     return primes;
 	}
 
